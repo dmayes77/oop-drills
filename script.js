@@ -88,9 +88,7 @@ class Motorcyle extends Vehicle {
 			if (this.numOfDoors === 0 && this.hasHandleBars === true) {
 				console.log(`This ${this.manufact} motorcycle, has ${this.numOfWheels} wheels, and hadlebars. It's a Motorcycle there are no doors, silly.`);
 			} else {
-				console.log(`This ${ this.manufact } motorcycle has ${ this.numOfWheels } wheels.
-				HandleBars: ${this.hasHandleBars}
-				Number of Doors: ${this.numOfDoors} (not sure what type of motorcyle this is)
+				console.log(`This ${ this.manufact } motorcycle has ${ this.numOfWheels } wheels.\n HandleBars: ${this.hasHandleBars}\n Number of Doors: ${this.numOfDoors} (not sure what type of motorcyle this is)
 				`);
 			}
 	}
